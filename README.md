@@ -1,11 +1,13 @@
+Scalar-on-Image regression using iterative methods
+--------------------------------------------------
 
-SOIR
-====
+This package is a wrapper for the Sarim package (also available via github). Note that for Sarim C++11 must be enabled. This can be done in R with:
 
-Package for Scalar-on-Image regression using iterative methods
---------------------------------------------------------------
+``` r
+Sys.setenv("PKG_CXXFLAGS"="-std=c++11")
+```
 
-Install with:
+Install SOIR with:
 
 ``` r
 devtools::install_github("RaphaelRe/SOIR")
@@ -16,22 +18,6 @@ devtools::install_github("RaphaelRe/SOIR")
 
     ## Installing SOIR
 
-    ## Installing checkmate
-
-    ## Installing backports
-
-    ## '/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore  \
-    ##   --quiet CMD INSTALL '/tmp/RtmpbddjYL/devtools3b5c7a0795f5/backports'  \
-    ##   --library='/home/rr/R/x86_64-pc-linux-gnu-library/3.3' --install-tests
-
-    ## 
-
-    ## '/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore  \
-    ##   --quiet CMD INSTALL '/tmp/RtmpbddjYL/devtools3b5c3288acd9/checkmate'  \
-    ##   --library='/home/rr/R/x86_64-pc-linux-gnu-library/3.3' --install-tests
-
-    ## 
-
     ## Downloading GitHub repo RaphaelRe/SOIR@master
     ## from URL https://api.github.com/repos/RaphaelRe/SOIR/zipball/master
 
@@ -39,7 +25,7 @@ devtools::install_github("RaphaelRe/SOIR")
 
     ## '/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore  \
     ##   --quiet CMD INSTALL  \
-    ##   '/tmp/RtmpbddjYL/devtools3b5c4160af10/RaphaelRe-SOIR-17288b5'  \
+    ##   '/tmp/RtmpbddjYL/devtools3b5c2c7ae8e0/RaphaelRe-SOIR-c6ce252'  \
     ##   --library='/home/rr/R/x86_64-pc-linux-gnu-library/3.3' --install-tests
 
     ##
